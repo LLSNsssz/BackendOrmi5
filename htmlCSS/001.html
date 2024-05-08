@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewprot" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<body>
+<!--
+form: 사용자가 입력한 데이터를 서버로 보내기 위한 양식
+input: 사용자가 입력하는 부분
+button: 사용자가 입력한 데이터를 서버로 보내는 버튼
+-->
+<!--action: 내 요철을 처리할 주소, 비어있으면 나 자신-->
+<!--method 요청을 무엇으로 보낼지(택배, 인편, 특급배송-->
+<!--get -> URL로 전송
+    post ->
+    -->
+<!--보통은 로그인은 POST로 처리-->
+    <form action="" method="get">
+        <input type="text" name="id">
+        <input type="password" name="pw">
+        <input type="submit" value="login">
+<!--<button>으로 해도 같음-->
+    </form>
+<!--이렇게 많이 사용-->
+    <form action=""method="get">
+        <input type="text" name="q">
+        <button>검색</button>
+    </form>
+<!--
+    로그인 버튼 누르니 아래와 같이 주소창에 나타남
+    http://localhost:63342/htmlCSS/001.html?id=asdf&pw=asdf
+
+    처리 절차
+    1. 로그인 버튼 누르게 되면 브라우저에서 각각의 input의 name값과 value값을 가져와서 아래 패킷 데이터를 만듬.
+
+    GET /001.html?id=asdf&pw=asdf HTTP/1.1              # 요청라인
+    user-agent: MSIE 6.0; Windows NT 5.0  # 헤더
+    accept: text/html; */*
+    cookie: name = value
+    referer: http://www.naver.com
+    host: 나 자신
+
+    2. 이 패킷을 host로 보내서 처리합니다.
+
+    3. 그런데 처리햐야 할 사람이 나 자신. 그래서 나 자신에게 http://localhost:63342/htmlCSS/001.html?id=asdf&pw=asdf 가 뜨게됨
+
+    GET 방식의 장점과 단점
+    1.URL에 데이터가 노출되어 보안에 취약함. 예를 들어서 카페에서 누가 옆에서 훔쳐볼수도, URL은 기본적으로 도청이됨.
+    2. 그래서 노출이 되는 데이터는 GET으로 하고 보통을 검색창들이 GET으로 처리함.
+
+    3. 노출되어도 좋은 데이터는? 공유했을 때 다른사람도 URL로 접속해서 같은 결과를 볼수 있음. post는 안됨
+
+    4. 검색 키워드를 GET으로 만드는 것이 절대적이지 않음. 예로 정부의 부동산 서비스의 경우에는 검색 키워드도 POST로 처리. 보안상의 이유로 정보를 감춰야 할때는 POST사용
+    -->
+</body>
+</html>
