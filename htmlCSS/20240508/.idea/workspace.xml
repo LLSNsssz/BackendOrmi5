@@ -4,29 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c71ef448-26ac-49e3-95c3-3bf966908979" name="Changes" comment="">
+    <list default="true" id="07f568df-3f40-4a6a-8204-4e441d7e872b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/001.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/002.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/003.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/004.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/005.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/006.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/007.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/008.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/009.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/010.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/011.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/012.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/013.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/014.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/015.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/htmlCSS.iml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -44,9 +35,10 @@
   }
 }</component>
   <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 0
 }</component>
-  <component name="ProjectId" id="2gDiyHGKtA1jzH2Mxh6Yepmf9YN" />
+  <component name="ProjectId" id="2gAVMjf97giteAiBZ5eeJjXjk86" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
   </component>
@@ -56,6 +48,7 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
@@ -78,14 +71,15 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="c71ef448-26ac-49e3-95c3-3bf966908979" name="Changes" comment="" />
-      <created>1715238801546</created>
+      <changelist id="07f568df-3f40-4a6a-8204-4e441d7e872b" name="Changes" comment="" />
+      <created>1715140324231</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1715238801546</updated>
-      <workItem from="1715238802609" duration="581000" />
-      <workItem from="1715239406867" duration="12829000" />
-      <workItem from="1715257784308" duration="336000" />
+      <updated>1715140324231</updated>
+      <workItem from="1715140325571" duration="2000" />
+      <workItem from="1715140491301" duration="12409000" />
+      <workItem from="1715214061402" duration="8000" />
+      <workItem from="1715214525564" duration="7000" />
     </task>
     <servers />
   </component>

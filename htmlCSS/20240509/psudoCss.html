@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        div:active {
+            background-color: darkblue;
+            color: white;
+        }
+
+        *:focus {
+            background-color: hotpink;
+        }
+
+        a:link {
+            color: green;
+        }
+
+        a:visited {
+            color: blue;
+        }
+
+        ul li:nth-child(3) {
+            background-color: blue;
+        }
+
+        li:not(:first-child) {
+            margin-top: 20px;
+        }
+
+        section div:nth-child(2) {
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <h1>0</h1>
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+    </section>
+    <ul>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+    </ul>
+    <div>
+        hello
+    </div>
+    <a href="https://www.netmable.com">넷마블로 가기</a>
+</body>
+</html>
