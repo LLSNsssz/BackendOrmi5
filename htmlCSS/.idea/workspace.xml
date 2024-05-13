@@ -6,22 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="c71ef448-26ac-49e3-95c3-3bf966908979" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/001.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/002.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/003.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/004.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/005.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/006.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/007.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/008.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/009.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/010.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/011.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/012.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/013.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/014.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/015.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/htmlCSS.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/20240509/Group.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/20240509/icon-lock.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/20240509/icon-user.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/20240509/wenivLogin.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/20240510/flex.html" beforeDir="false" afterPath="$PROJECT_DIR$/20240510/flex.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,6 +75,13 @@
       <workItem from="1715238802609" duration="581000" />
       <workItem from="1715239406867" duration="12829000" />
       <workItem from="1715257784308" duration="336000" />
+      <workItem from="1715261882685" duration="749000" />
+      <workItem from="1715298829306" duration="408000" />
+      <workItem from="1715299249329" duration="18303000" />
+      <workItem from="1715395761341" duration="19280000" />
+      <workItem from="1715521363044" duration="81000" />
+      <workItem from="1715558416189" duration="8807000" />
+      <workItem from="1715567850488" duration="1849000" />
     </task>
     <servers />
   </component>

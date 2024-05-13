@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+        }
+
+        ul {
+            display: flex;
+            /*width: 500px;*/
+            height: 500px;
+            background: royalblue;
+            list-style: none;
+            /*flex-direction: column;*/
+            /*flex-wrap: wrap;*/
+            align-items: center;
+        }
+
+        li {
+            flex-basis: 100px;
+            /*축의 방향에 따라 달라짐 row-width, colum-width*, 안에 컨텐츠가 부모를 넘어서면 넓이나 높이가 조정됨*/
+            flex-grow: 1;
+            /*width: 50px;*/
+            height: 50px;
+            border: 1px solid black;
+            background-color: teal;
+        }
+
+        .child {
+            /*flex-basis: 200px;*/
+            /*flex-grow: 2;!*basis에 적용된 값보다 늘어나게*/
+            /*flex-shrink: 2;!*basis에 적용된 값보다 적어지게, 0은 적어지지 않게(고정)*!*/
+            align-self: end;
+        }
+    </style>
+</head>
+<body>
+<ul>
+    <li>1</li>
+    <li>2</li>
+    <li class="child">3</li>
+    <li>4</li>
+    <li>5</li>
+<!--    <li>1</li>-->
+<!--    <li>2</li>-->
+<!--    <li>3</li>-->
+<!--    <li>4</li>-->
+<!--    <li>5</li>-->
+<!--    <li>1</li>-->
+<!--    <li>2</li>-->
+<!--    <li>3</li>-->
+<!--    <li>4</li>-->
+<!--    <li>5</li>-->
+</ul>
+</body>
+</html>
