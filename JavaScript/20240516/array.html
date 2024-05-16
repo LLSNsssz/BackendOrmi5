@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<script>
+    const arr = [1, 2, 3];
+    arr.push(4); //arr = [1, 2, 3, 4]
+    arr.pop(); //arr = [1, 2, 3]
+
+    arr.shift(); //arr = [2, 3]
+    arr.unshift(1); //arr = [1, 2, 3]
+
+    arr.splice(2, 0, 11); //arr = [1, 2, 11, 3]
+
+    arrSlice = arr.slice(1,3); //arr = [1, 2, 11, 3], arr2 = [2, 11]
+
+    arr.sort(); //arr = [1, 11, 2, 3]
+
+    arr.forEach((item, index) => console.log(item, index));
+    //결과
+    //1(item) 0(index)
+    //11(item) 1(index)
+    //2(item) 2(index)
+    //3(item) 3(index)
+
+    arrMap = arr.map((item, index) => item * index);
+    //arrMap = [0, 11, 4, 9]
+
+    arrFilter = arr.filter(el => el % 2 === 0);
+    //arr = [1, 2, 11, 3], arrFilter = [2]
+
+    arr.includes(11); //true
+</script>
+</body>
+</html>
