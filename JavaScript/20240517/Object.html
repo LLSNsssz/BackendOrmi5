@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<script>
+    const babaYaga1 = {
+        name: "John Wick",
+        age: 53,
+        from: "벨라루스",
+        askingHim: function(){
+            console.log("Yeah, I'm thinking I'm back!");
+        }
+    };
+    const babaYaga2 = {
+        name: "John Wick",
+        age: 53,
+        from: "벨라루스",
+        askingHim(){
+            console.log("Yeah, I'm thinking I'm back!");
+        }
+    };
+    console.log(`${babaYaga1.name} from ${babaYaga1.from}`);
+    console.log(`${babaYaga2['name']} from ${babaYaga2['from']}`);
+
+    babaYaga1.job = "Killer";
+
+    delete babaYaga2.job;
+
+    console.log('age' in babaYaga1);
+    console.log('mercy' in babaYaga2);
+</script>
+</body>
+</html>
