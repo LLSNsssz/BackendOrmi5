@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+
+<script>
+    class Robot {
+        #name;
+        constructor(#name, hp, mp, x) {
+            this.#name = name;
+            this.hp = hp;
+            this.mp = mp;
+            this.x = x;
+
+        }
+
+        sayYourName() {
+            console.log(`제 이름은 ${this.#name} 입니다`)
+        }
+
+        move() {
+            console.log('move');
+            this.x += 10;
+        }
+
+    }
+
+    class Mob extends Robot{
+        constructor(#name, hp, mp, x, dropRate) {
+            super(name, hp, mp, x);
+            this.dropRate = dropRate;
+        }
+
+        die() {
+            console.log('죽었음!');
+            console.log('아이템 드랍!')
+        }
+    }
+
+    let robot1 = new Robot('lee', 100, 100, 0);
+    let robot2 = new Robot('seung', 200, 500, 0);
+    let robot3 = new Robot('hee', 10, 10, 0);
+
+    robot1.sayYourName();
+    robot2.sayYourName();
+    robot3.sayYourName();
+
+    robot1.move();
+    robot2.move();
+    robot3.move();
+
+    let monster1 = new Mob('a', 5000, 5000, 0, 0.1);
+    monster1.sayYourName();
+    monster1.die();
+
+</script>
+</body>
+</html>

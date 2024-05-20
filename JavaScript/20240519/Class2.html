@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+
+<script>
+    class Robot {
+        #name;
+        #password;
+        constructor(name, pw) {
+            this.#name = name;
+            this.#password = pw;
+
+        }
+
+        sayYourName() {
+            console.log(`제 이름은 ${this.#name} 입니다`)
+        }
+
+        get password() {
+            console.log('getter')
+            return this.#password;
+        }
+
+        set password(pw) {
+            console.log('setter')
+            this.#password = pw;
+
+        }
+
+    }
+
+    const bot = new Robot('재현', 12345);
+
+    console.log(bot.password);
+    bot.password = 3456;
+
+</script>
+</body>
+</html>
