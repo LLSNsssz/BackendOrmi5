@@ -24,126 +24,141 @@
         </div>
     </div>
 </header>
-<div class="hodu-main-layout">
-    <div class="hodu-main-content">
-        <div class="hodu-text">
-            <p class="hodu-text-main">
-                Lorem Ipsum is simply
-                dummy text of the printing and
-            </p>
-            <p class="hodu-text-sub">
-                Lorem Ipsum is simply dummy text of the printing and
-                typesetting industry.
-                Lorem Ipsum has been the industry's standard dummy text
-                ever since the 1500s, when an unknown
-            </p>
-        <button>Download</button>
-        </div>
-        <div class="box-head-cat-img">
-            <img src="img_cat_png.png" alt="box-head-cat">
-        </div>
-    </div>
-</div>
-<main class="">
-    <div class="hodu-element">
-        <img src="img_4.png" alt="lying-down-cat">
-        <div>
-            <p class="hodu-text-main">
-                Lorem Ipsum is simply
-                dummy text of the printing and dummy text
-            </p>
-            <p class="hodu-text-sub">
-                Lorem Ipsum is simply dummy text of the printing and
-                typesetting industry.
-                Lorem Ipsum has been the industry's standard dummy text
-                ever since the 1500s, when an unknown
-            </p>
+
+<main>
+    <div class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <span class="hero-text-main">
+                    Lorem Ipsum is simply
+                    dummy text of the printing and
+                </span>
+                <span class="hero-text-sub">
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry.
+                    Lorem Ipsum has been the industry's standard dummy text
+                    ever since the 1500s, when an unknown
+                </span>
+            <button>Download</button>
+            </div>
+            <div class="hero-image">
+                <img src="img_cat_png.png" alt="box-head-cat">
+            </div>
         </div>
     </div>
-    <div>
-        dummy text of the printing and dummy
+
+    <div class="features">
+        <div class="features-content">
+            <img src="img_4.png" alt="lying-down-cat">
+            <div class="features-txt">
+                <span class="features-text-main">
+                    Lorem Ipsum is simply
+                    dummy text of the printing and dummy text
+                </span>
+                <span class="features-text-sub">
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry.
+                    Lorem Ipsum has been the industry's standard dummy text
+                    ever since the 1500s, when an unknown
+                </span>
+            </div>
+        </div>
     </div>
-    <div class="main-gallery">
-        <img src="img_1-1.png" alt="">
-        <img src="img_1-2.png" alt="">
-        <img src="img_1-3.png" alt="">
-        <img src="img_2-1.png" alt="">
-        <img src="img_2-2.png" alt="">
-        <img src="img_2-3.png" alt="">
+
+    <div class="gallery">
+        <div class="gallery-content">
+            <div class="gallery-txt">
+                <span class="gallery-txt-main">
+                    dummy text of the printing and dummy
+                </span>
+                <span class="gallery-txt-sub">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
+                </span>
+            </div>
+            <div class="gallery-img">
+                <img src="img_1-1.png" alt="">
+                <img src="img_1-2.png" alt="">
+                <img src="img_1-3.png" alt="">
+                <img src="img_2-1.png" alt="">
+                <img src="img_2-2.png" alt="">
+                <img src="img_2-3.png" alt="">
+            </div>
+            <div>
+                Continue exploring HODU
+            </div>
+            <button>Show more</button>
+        </div>
     </div>
-    <div>
-        Continue exploring HODU
-    </div>
-    <button>Show more</button>
 
     <section class="info">
-        <p>
-            Where you'll be
-        </p>
-        <p>
-            330, Cheomdan-ro, Jeju-si, Jeju-do, Republic of Korea
-        </p>
-        지도
+        <div class="info-content">
+            <div class="info-txt">
+                <span>
+                    Where you'll be
+                </span>
+                <span class="address">
+                    330, Cheomdan-ro, Jeju-si, Jeju-do, Republic of Korea
+                </span>
+            </div>
+            <div class="map"></div>
+        </div>
     </section>
-    <section class="sub">
-        <div class="subscribe ">
+
+    <section class="subscribe-overlay">
+        <div class="subscribe-form">
             <div class="subscribe-text">
-                <p class="subscribe-text-main">
+                <span class="subscribe-text-main">
                     Subscribe to our Blog post
-                </p>
-                <p class="subscribe-text-sub">
+                </span>
+                <span class="subscribe-text-sub">
                     Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                     Lorem Ipsum has been the industry's standard dummy text
-                </p>
+                </span>
             </div>
-            <form action="">
-                <label for="e-mail"></label>
+            <form action="" method="post">
                 <input type="text" placeholder="Enter your e-mail address" id="e-mail">
                 <button class="subscribe-btn">Subscribe</button>
             </form>
+        </div>
 
+        <div class="modal">
+            <div class="modal-body">
+                <img src="cat%201.png" alt="cat-face">
+                <span>
+                    Thank you!
+                </span>
+                <span>
+                    Lorem Ipsum is simply dummy text of the printing industry.
+                </span>
+                <button>OK! I LOVE HOD</button>
+            </div>
         </div>
-        <div class="bottom-cat">
-            <img src="img_5.png" alt="">
-        </div>
+            <script>
+                const modal = document.querySelector('.modal');
+                const btn = document.querySelector('.subscribe-btn');
+
+                btn.addEventListener('click', function () {
+                    btn.classList.toggle('.modal')
+                });
+            </script>
     </section>
 </main>
-<footer class="">
-    <div>
-        <img src="Logo-fin.png" alt="HODU-logo">
-    </div>
-    <div>
-        <img src="icon-blog.png" alt="">
-        <img src="icon-facebook.png" alt="">
-        <img src="icon-insta.png" alt="">
-        <img src="icon-youtube.png" alt="">
+
+<footer>
+    <div class="footer-layout">
+        <div>
+            <img src="Logo-fin.png" alt="HODU-logo">
+        </div>
+        <div>
+            <img src="icon-blog.png" alt="">
+            <img src="icon-facebook.png" alt="">
+            <img src="icon-insta.png" alt="">
+            <img src="icon-youtube.png" alt="">
+        </div>
     </div>
 </footer>
 
-<div class="modal">
-    <div class="modal-body">
-        Thank you!
-        <span class="close">OK! I LOVE HOD</span>
-    </div>
-</div>
-<script>
-    const modal = document.getElementById('.modal');
-    const btn = document.getElementById('.subscribe-btn');
-    const span = document.getElementById('.close');
 
-    btn.onclick = function () {
-        modal.style.display = "flex";
-    }
-    span.onclick = function () {
-        modal.style.display = "none";
-    }
-
-    window.onclick = function () {
-        if (event.target === modal) {
-            modal.style.display = "none";
-        }
-    };
-
-</script>
 </body>
 </html>
